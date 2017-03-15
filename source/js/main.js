@@ -13,7 +13,7 @@
             }
         });
     });
-    if (typeof lightGallery != 'undefined') {
+    if (lightGallery) {
         var options = {
             selector: '.gallery-item',
         };

@@ -3,7 +3,7 @@
         <%- css('libs/lightgallery/css/lightgallery.min') %>
     <% } %>
     <% if (theme.plugins.justifiedgallery) { %>
-        <%- css('libs/justified-gallery/justifiedGallery.min') %>
+        <%- css('libs/justified-gallery/justifiedGallery.min.css') %>
     <% } %>
     <% if (theme.plugins.google_analytics) { %>
         <%- partial('plugin/google-analytics') %>
@@ -27,12 +27,6 @@
         <%- js('libs/lightgallery/js/lg-video.min') %>
     <% } %>
     <% if (theme.plugins.justifiedgallery) { %>
-        <%- js('libs/justified-gallery/jquery.justifiedGallery.min') %>
-    <% } %>
-    <% if (theme.plugins.mathjax) { %>
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-        </script>
-        <%- js('https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML') %>
+        <%- js('libs/justified-gallery/jquery.justifiedGallery.min.js') %>
     <% } %>
 <% } %>
