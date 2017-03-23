@@ -15,22 +15,21 @@ customize:
         url: images/logo.png
     profile:
         enabled: true # Whether to show profile bar
-        avatar: css/images/avatar.png
+        avatar: css/images/me.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
-        follow: https://github.com/ppoffice/
+        author: Martin Vicián
+        author_title: Server Administrator & Linux Geek & Open-source enthusiast
+        location: Prague, Czech Republic
+        follow: https://twitter.com/ptvician
     highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: css/images/favicon.ico
     social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: /
-        facebook: /
-        dribbble: /
-        rss: /
+        github: https://github.com/vician
+        twitter: https://twitter.com/ptvician
+        linkedin: https://www.linkedin.com/in/ptvician/
+        rss: /rss.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
 # Widgets
@@ -39,7 +38,7 @@ widgets:
     - category
     - archive
     - tag
-    - tagcloud
+      #- tagcloud
     - links
 
 # Search
@@ -50,7 +49,7 @@ search:
 
 # Comment
 comment:
-    disqus: hexo-theme-icarus # enter disqus shortname here
+    disqus: vician # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
     facebook: # enter true to enable
@@ -75,4 +74,6 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        Hexo: http://hexo.io
+        Mozart Game: https://www.mozart-game.cz
+        NaLinux.cz: https://nalinux.cz
+        Vokativy: https://vokativy.cz

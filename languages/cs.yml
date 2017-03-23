@@ -36,3 +36,7 @@ insight:
     tags: 'Tags'
     untitled: '(Untitled)'
 
+menutitle:
+  blog: Blog
+  about: About
+  wiki: Wiki
