@@ -1,9 +1,9 @@
 # Menus
 menu:
-  Home: .
+  Blog: .
   Archives: archives
-  Categories: categories
-  Tags: tags
+  #Categories: categories
+  #Tags: tags
   About: about
 
 # Customize
